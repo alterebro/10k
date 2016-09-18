@@ -1,7 +1,16 @@
 {
   "name": "10k-aparte",
   "version": "1.0.0",
-  "description": "10k apart - Contest submission",
+  "description": "10K Apart Contest submission - Spanish Translated Website.",
+  "author": "Jorge Moreno, www.moro.es. (@alterebro)",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alterebro/10k.git"
+  },
+  "bugs": {
+      "url": "https://github.com/alterebro/10k/issues"
+  },
+  "homepage": "http://alterebro.github.io/10k",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +18,6 @@
   "keywords": [
     "10k"
   ],
-  "author": "Jorge Moreno, www.moro.es. (@alterebro)",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
