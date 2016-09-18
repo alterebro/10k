@@ -1,0 +1,21 @@
+{
+  "name": "10k-aparte",
+  "version": "1.0.0",
+  "description": "10k apart - Contest submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "10k"
+  ],
+  "author": "Jorge Moreno, www.moro.es. (@alterebro)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-gzip": "^1.4.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-replace": "^0.5.4"
+  }
+}
