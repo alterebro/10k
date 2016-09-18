@@ -1,3 +1,11 @@
+
+// Opera Mini Extreme Savings mode filtering.
+if ( navigator.userAgent.indexOf('Presto/') > -1 && navigator.userAgent.indexOf('Opera Mini/') > -1 ) {
+	document.querySelector('style').firstChild.textContent = '';
+	throw new Error(':(');
+}
+
+
 function handle_class(el, classname, action) {
 	switch (action) {
 		// add
